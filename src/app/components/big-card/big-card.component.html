@@ -2,7 +2,7 @@
 
   <div class="big-card__photo">
     <img
-    src="https://img.freepik.com/fotos-gratis/galaxy-glowing-starfield-ilumina-o-ceu-noturno-escuro-gerado-por-ia_188544-15600.jpg"
+    src="{{photoCover}}"
      alt=""
      height="200px"
      >
@@ -10,13 +10,13 @@
   </div>
 
   <div class="big-card__title">
-   <h1><a href="#"> Saiu uma nova versão do Angular</a></h1>
+   <h1><a href="#"> {{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero explicabo aut itaque quod voluptatem, recusandae harum quae blanditiis error voluptatum consequuntur rerum dolorem architecto tempora vitae, neque, quidem velit odit.
+        {{  cardDescription }}
       </a>
     </p>
   </div>

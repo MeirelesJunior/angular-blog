@@ -7,6 +7,7 @@
 .container__small-card-content{
   display: flex;
   flex-direction: row;
+  font-size: small;
 }
 
 .small-card__photo > img{
